@@ -1,10 +1,30 @@
 {
   "name": "signo-client",
   "version": "1.0.0",
+  "type": "module",
   "description": "Client to send signing requests to signo server",
   "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node-esm --project ./tsconfig.json src/cli.ts",
+    "build": "rimraf dist && tsc",
+    "typecheck": "tsc --noEmit",
+    "lint": "esw --color --ext .ts src",
+    "lint:fix": "esw --color --fix --ext .ts src",
+    "lint:watch": "esw --color --fix --watch --cache --ext .ts src",
+    "release": "standard-version",
+    "release:pre": "standard-version --prerelease"
+  },
+  "files": [
+    "bin/*",
+    "dist/**/*"
+  ],
+  "bin": {
+    "signo-client": "./bin/signo-client.js"
+  },
+  "exports": {
+    "types": "./dist/index.d.ts",
+    "default": "./dist/index.js"
   },
   "repository": {
     "type": "git",
