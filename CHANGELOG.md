@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.1](https://github.com/gergof/signo-client/compare/v1.0.0...v1.0.1) (2024-02-06)
+
+
+### Bug Fixes
+
+* Fixed bin ([1a0a745](https://github.com/gergof/signo-client/commit/1a0a745ef08c3eb7b227c85d92f4209f9608cd94))
+
 ## 1.0.0 (2024-02-06)
 
 
