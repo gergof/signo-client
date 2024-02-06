@@ -14,7 +14,8 @@
 		"moduleResolution": "nodenext",
 		"isolatedModules": true,
 		"emitDecoratorMetadata": true,
-		"experimentalDecorators": true
+		"experimentalDecorators": true,
+		"declaration": true
 	},
 	"exclude": ["node_modules", "bin"],
 	"ts-node": {
