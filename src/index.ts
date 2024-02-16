@@ -1,1 +1,1 @@
-export * from './SignoClient.js';
+export { default } from './SignoClient.js';
