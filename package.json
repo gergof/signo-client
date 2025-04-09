@@ -38,7 +38,7 @@
     "pkcs11"
   ],
   "author": "Fandly Gergo",
-  "license": "GPL-3.0",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/gergof/signo-client/issues"
   },
@@ -59,7 +59,7 @@
     "typescript": "^5.3.3"
   },
   "dependencies": {
-    "@opsvent/hmac": "^1.0.1",
+    "@opsvent/hmac": "^1.1.1",
     "commander": "^12.0.0",
     "form-data-encoder": "^4.0.2",
     "formdata-node": "^6.0.3",
