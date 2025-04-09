@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0](https://github.com/gergof/signo-client/compare/v1.0.2...v1.1.0) (2025-04-09)
+
+
+### Features
+
+* Changed license to MIT ([0fa7232](https://github.com/gergof/signo-client/commit/0fa723254be5fcb7fd67dfe327ec1c61d47eecdc))
+
 ### [1.0.2](https://github.com/gergof/signo-client/compare/v1.0.1...v1.0.2) (2024-02-16)
 
 
